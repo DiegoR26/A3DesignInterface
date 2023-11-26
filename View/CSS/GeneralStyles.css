@@ -90,23 +90,20 @@ Main {
     height: 100%;
     width: 100%;
     background-color: #fff;
-
-    }
+}
 
 
 .baseDivBt {
-    border: 1px solid #008000;
-    
-    background-color: #b9e5c2;
+    border: 1px solid #008000;  
+    background-color: #2ab92a;
     border-radius: 25px;   
 }
-.baseDivBt:hover{ background-color: #2ab92a; }
+.baseDivBt:hover{ background-color: #179717; }
 
 .baseDivBt:active {
     transform: scaleX(1.05);
     background-color: #5fda5f;
 }
-
 
 .baseDivBt a {
     height: 100%;

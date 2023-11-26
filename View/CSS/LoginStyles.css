@@ -7,10 +7,11 @@
     background-size: cover;
 } */
 .logo {
+    color: #fff;
     font-weight: bolder;
     font-size: -webkit-xxx-large;
     font-family: cursive;
-    text-shadow: 0px 0px 5px #fff, 0px 0px 10px #21e749, 0px 0px 10px #21e749,
+    text-shadow: 0px 0px 5px #000, 0px 0px 10px #21e749, 0px 0px 10px #21e749,
     0px 0px 20px #21e749;
     
 
@@ -18,12 +19,18 @@
 .underLogo {
     font-size: 14px;
     font-family: cursive;
-    background-color: #fff;
     text-align: center;
-    border: 2px solid;
-    border-color: #21e749;
-    border-radius: 15px;
+    
 }
+
+.logoWrap {
+    background-color: #fff;
+    border: 2px outset #008000;
+    border-radius: 50px;
+    padding: 10px;
+    box-shadow: 20px 20px 50px 10px #21e749 inset;
+}
+
 .loginContent {
     display:grid;
     align-items:center;
@@ -38,14 +45,17 @@
 }
 
     input {
-        border:none;
+        border: 2px solid;
+        border-color: #21e749;
+        border-radius: 25px;
         background-color: #b9e5c2;
         height:50px;
         width: 200px;
-
+        padding: 20px;
     }
     ::placeholder {
         text-align: center;
+        font-size: 15px;
     }
     .inputsDiv {
     display:flex;
@@ -63,11 +73,11 @@ button {
     align-items:center;
     gap: 15px;
     margin-top: 30px;
-
 }
 
 #loginInputContainer {
     background-color: #fff;
     padding: 40px;
     border-radius: 40px;
+    margin: 50px 30px 0px 30px;
 }
