@@ -308,4 +308,14 @@ textarea {
     width: 60px;
     height: 60px;
 
-}                 
+}
+
+.close-text-btn {
+  border: 1px solid #971717;  
+}
+.close-text-btn:hover{ background-color: #971717; }           
+
+.save-text-btn {
+  border: 1px solid #2ab92a;  
+}
+.save-text-btn:hover{ background-color: #2ab92a; }           
