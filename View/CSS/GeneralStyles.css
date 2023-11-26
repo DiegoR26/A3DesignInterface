@@ -1,10 +1,16 @@
+* { margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;}
+    
 body {
     background-color: #515151;
 }
 
 Main {
     height: 800px;
-    width: 480px;
+    width: 400px;
     margin: auto;
     background-color: #181818;
     border: 2px solid #000;
@@ -34,7 +40,7 @@ Main {
 
 #topBarStatusItems {
     height: 100%;
-    width: 100px;
+    width: 100%;
     background-image: url('../Images/topBarStatus.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -82,18 +88,23 @@ Main {
     height: 100%;
     width: 100%;
     background-color: #fff;
-}
+
+    }
+
 
 .baseDivBt {
     border: 1px solid #008000;
-    background-color: #2ab92a;
+    
+    background-color: #b9e5c2;
     border-radius: 25px;   
 }
+.baseDivBt:hover{ background-color: #2ab92a; }
 
 .baseDivBt:active {
     transform: scaleX(1.05);
     background-color: #5fda5f;
 }
+
 
 .baseDivBt a {
     height: 100%;
