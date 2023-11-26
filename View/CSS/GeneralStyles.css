@@ -100,13 +100,30 @@ Main {
     border-radius: 25px;   
 }
 .baseDivBt:hover{ background-color: #179717; }
-
 .baseDivBt:active {
     transform: scaleX(1.05);
     background-color: #5fda5f;
 }
-
 .baseDivBt a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.close-btn {
+    border: 1px solid #008000;  
+    background-color: #2ab92a;
+    border-radius: 25px;   
+}
+.close-btn:hover{ background-color: #971717; }
+
+
+.close-btn a {
     height: 100%;
     width: 100%;
     display: flex;
