@@ -22,7 +22,7 @@
     border-radius: 80px;
     font-size: 32px;
     grid-column: 2;
-    background-image: url('../Images/checkin.png');
+    background-image: url('../Images/camera.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
@@ -30,12 +30,12 @@
     width: 80px;
 }
 
-#galery{
+#gallery{
     border: 1px solid #008000;
     background-color: #2ab92a;
     border-radius: 60px;
     font-size: 12px;
-    background-image: url('../Images/addPic.png');
+    background-image: url('../Images/gallery.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 60%;
