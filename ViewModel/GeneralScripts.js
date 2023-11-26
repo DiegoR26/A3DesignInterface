@@ -24,6 +24,12 @@ updateLocalTime();
 function alertShare() {
     document.getElementById('modalShare').style.display = 'flex';
 }
+function Navigate(url) {
+    window.location.href = url;
+}
+
+
+
 
 function closeShare() {
     document.getElementById('modalShare').style.display = 'none';

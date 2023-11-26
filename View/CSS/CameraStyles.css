@@ -1,0 +1,45 @@
+#cameraImage {
+    background-image: url('../Images/cameraRecord.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 585px;
+}
+
+#cameraButtons {
+    display:grid;
+    grid-template-columns: 30% 40% 30%;
+    background-color:#fff;
+    box-shadow: 20px 20px 50px 10px #b9e5c2 inset;
+    justify-items: center;
+    align-items:center;
+    padding: 5px 20px;
+}
+
+#takePicture{   
+    border: 1px solid #008000;
+    background-color: #b9e5c2;
+    border-radius: 80px;
+    font-size: 32px;
+    grid-column: 2;
+    background-image: url('../Images/checkin.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    height: 80px;
+    width: 80px;
+}
+
+#galery{
+    border: 1px solid #008000;
+    background-color: #2ab92a;
+    border-radius: 60px;
+    font-size: 12px;
+    background-image: url('../Images/addPic.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    width: 60px;
+    height: 60px;
+
+}    
