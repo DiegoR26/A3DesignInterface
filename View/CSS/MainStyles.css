@@ -7,7 +7,8 @@
 }
 .status{
     height:100%;
-    background-color:#505070;
+    background-color:#fff;
+    box-shadow: 20px 20px 50px 10px #b9e5c2 inset;
 }
 .maps{
     height:100%;
@@ -200,7 +201,4 @@ button:hover{ background-color: #2ab92a; }
     width: 60px;
     height: 60px;
 
-}
-
-
-                        
+}                 
