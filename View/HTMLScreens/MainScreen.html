@@ -7,8 +7,43 @@
     <title>Cadastre-se ou faça Login</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
-      </style>
+    </style>
     <link rel="stylesheet" href="../CSS/GeneralStyles.css">
     <link rel="stylesheet" href="../CSS/MainStyles.css">
     <script src="/ViewModel/GeneralScripts.js"></script>
 </head>
+
+<body>
+    <Main>
+        <div id="screen">
+            <!-- Barra no topo do celular com as informações de sinal e bateria -->
+            <div id="topBar">
+                <div id="topBarLocalTime"></div>
+                <div id="topBarStatusItems"></div>
+            </div>
+            <div id="mainContent" class="mainContent">
+                <div id="ms-content" class="ms-content">
+                    <div id="status" class="status">Aqui pensei em botões do tipo: ativar localizador, geotag nas fotos, procurar no google images fotos semelhantes</div>
+                    <div id="maps" class="maps">Aqui fica o mapa mostrando a localização atual e posíveis pontos turisticos no entorno</div>
+                    <div id="pictures" class="pictures">Aqui fica um Roll da camera, mostrando as fotos que foram tiradas nas proximidades</div>
+                    <div id="checkIt" class="check-it">
+                        <div>
+                            <button class="btn-text">Comments</button>
+                        </div>  
+                        <div>
+                            <button class="btn-check-on">ENTRY!</button>
+                        </div>
+                        <div>
+                            <button class="btn-camera-roll">New Pic</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bottonBar">
+                <div id="bottonBarBt1" class="bottonBt"></div>
+                <div id="bottonBarBt2" class="bottonBt"></div>
+                <div id="bottonBarBt3" class="bottonBt"></div>
+            </div>
+        </div>
+    </Main>
+</body>

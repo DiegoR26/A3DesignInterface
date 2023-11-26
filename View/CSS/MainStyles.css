@@ -1,0 +1,53 @@
+.ms-content{
+    height: 100%;
+    width: 100%;
+    display:grid;
+    grid-template-rows: 15% 30% 40% 15%;
+    background-color: #dceddf;
+}
+.status{
+    height:100%;
+    background-color:#505070;
+}
+.maps{
+    height:100%;
+    background-color:#507050;
+}
+.pictures{
+    height:100%;
+    background-color:#705050;
+}
+.check-it{
+    display:grid;
+    grid-template-columns: 30% 40% 30%;
+    background-color:#505090;
+    justify-items: center;
+    align-items:center;
+}
+button{
+    padding: 5px 20px;
+}
+button:hover{ background-color: #2ab92a; }
+
+.btn-text{
+    border: 1px solid #008000;
+    background-color: #b9e5c2;
+    border-radius: 25px;
+    font-size: 12px;
+}
+.btn-check-on{
+        border: 1px solid #008000;
+        background-color: #b9e5c2;
+        border-radius: 25px;
+        font-size: 32px;
+}
+
+.btn-camera-roll{
+    border: 1px solid #008000;
+    background-color: #b9e5c2;
+    border-radius: 25px;
+    font-size: 12px;
+}
+
+
+                        
