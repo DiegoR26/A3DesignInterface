@@ -21,4 +21,10 @@ function updateLocalTime() {
 setInterval(updateLocalTime, 1000);
 updateLocalTime();
 
+function Navigate(url) {
+    window.location.href = url;
+}
+
+
+
 
