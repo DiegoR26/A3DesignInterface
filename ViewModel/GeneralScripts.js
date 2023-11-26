@@ -51,6 +51,12 @@ function alertCheckOn() {
 function closeCheckOn() {
     document.getElementById('modalCheckOn').style.display = 'none';
 }
+function alertText() {
+    document.getElementById('modalText').style.display = 'flex';
+}
+function closeText() {
+    document.getElementById('modalText').style.display = 'none';
+}
 
 function Navigate(url) {
     window.location.href = url;

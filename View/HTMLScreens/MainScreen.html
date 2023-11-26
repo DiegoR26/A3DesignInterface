@@ -72,7 +72,14 @@
                       
                     <div id="checkIt" class="check-it">
                         <div>
-                            <button class="btn-text"></button>
+                            <button class="btn-text" type="submit" onclick="alertText()"></button>
+                            <div id="modalText" class="modalInitial">
+                                <div class="modal">
+                                    <span class="close-btn" onclick="closeText()">&times;</span>
+                                <span>Escreva os comentários que quiser salvar neste <span style="color: blue;">CheckOn!!</span></span>
+                                    <textarea placeholder="Você pode adicionar mais de um comentário por localidade, mas somente um por checkOn"> </textarea> 
+                                </div>
+                            </div>
                         </div>  
                         <div>
                             <button class="btn-check-on"type="submit" onclick="alertCheckOn()"></button>
