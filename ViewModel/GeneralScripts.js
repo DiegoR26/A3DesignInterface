@@ -21,4 +21,10 @@ function updateLocalTime() {
 setInterval(updateLocalTime, 1000);
 updateLocalTime();
 
+function alertShare() {
+    document.getElementById('modalShare').style.display = 'flex';
+}
 
+function closeShare() {
+    document.getElementById('modalShare').style.display = 'none';
+}

@@ -25,6 +25,15 @@
                 <div id="ms-content" class="ms-content">
                     <div id="status" class="status">
                        <Button class="btn-location"></Button> 
+                       <Button class="btn-share" type="submit" onclick="alertShare()"></Button>
+                       <div id="modalShare" class="modalShare">
+                        <div class="modal">
+                            <span class="close-btn" onclick="closeShare()">&times;</span>
+                        <p>Compartilhe esta viagem com seus amigos!</p>
+                    </div>
+                       </div> 
+                       <Button class="btn-system"></Button> 
+                       <Button class="btn-tag"></Button>    
                     </div>
                     <div id="map" class="map">
                         <p>Você está em Reykjavic</p>
