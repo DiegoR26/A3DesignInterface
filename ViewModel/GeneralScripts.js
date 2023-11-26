@@ -45,6 +45,12 @@ function alertTag() {
 function closeTag() {
     document.getElementById('modalTag').style.display = 'none';
 }
+function alertCheckOn() {
+    document.getElementById('modalCheckOn').style.display = 'flex';
+}
+function closeCheckOn() {
+    document.getElementById('modalCheckOn').style.display = 'none';
+}
 
 function Navigate(url) {
     window.location.href = url;

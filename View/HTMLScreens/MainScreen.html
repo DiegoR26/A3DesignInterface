@@ -75,7 +75,14 @@
                             <button class="btn-text"></button>
                         </div>  
                         <div>
-                            <button class="btn-check-on"></button>
+                            <button class="btn-check-on"type="submit" onclick="alertCheckOn()"></button>
+                            <div id="modalCheckOn" class="modalInitial">
+                                <div class="modal">
+                                    <span class="close-btn" onclick="closeCheckOn()">&times;</span>
+                                <h3>Você realizou o CheckOn de sua viagem à <span style="color: blue;">Reykjavic!</span></h3>
+                                <p>Você ainda pode adicionar mais fotos à esta viagem caso não mude sua localização, basta dar CheckOn novamente!</p>
+                            </div>
+                               </div> 
                         </div>
                         <div>
                             <button class="btn-camera-roll" onclick="Navigate('Camera.html')"></button>
