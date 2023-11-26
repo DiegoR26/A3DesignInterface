@@ -10,10 +10,31 @@
     background-color:#fff;
     box-shadow: 20px 20px 50px 10px #b9e5c2 inset;
 }
-.maps{
+.btn-location{
+  display: inline-block;
+  background-image: url('../Icons/Location.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff; /* text color */
+  font-size: 16px; /* adjust font size as needed */
+
+}
+.map{
     height:100%;
+    width:100%;
     background-color:#507050;
 }
+.map img {
+  max-width: 100%;
+  object-fit: cover;
+  overflow:hidden;
+}
+
 .pictures {
     box-shadow: 
       0 0 10px #0002,
