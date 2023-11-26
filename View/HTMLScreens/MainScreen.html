@@ -24,16 +24,38 @@
             <div id="mainContent" class="mainContent">
                 <div id="ms-content" class="ms-content">
                     <div id="status" class="status">
-                       <Button class="btn-location"></Button> 
+                       
+                        <Button class="btn-location" type="submit" onclick="alertLocation()"></Button> 
+                       <div id="modalLocation" class="modalInitial">
+                        <div class="modal">
+                            <span class="close-btn" onclick="closeLocation()">&times;</span>
+                        <p>Você atualizou sua configuração de localização</p>
+                    </div>
+                       </div>
+
                        <Button class="btn-share" type="submit" onclick="alertShare()"></Button>
-                       <div id="modalShare" class="modalShare">
+                       <div id="modalShare" class="modalInitial">
                         <div class="modal">
                             <span class="close-btn" onclick="closeShare()">&times;</span>
                         <p>Compartilhe esta viagem com seus amigos!</p>
                     </div>
                        </div> 
-                       <Button class="btn-system"></Button> 
-                       <Button class="btn-tag"></Button>    
+                       <Button class="btn-system" type="submit" onclick="alertSystem()"></Button> 
+                       <div id="modalSystem" class="modalInitial">
+                        <div class="modal">
+                            <span class="close-btn" onclick="closeSystem()">&times;</span>
+                        <p>Configure seu app!</p>
+                    </div>
+                       </div> 
+
+                       <Button class="btn-tag"type="submit" onclick="alertTag()"></Button>  
+                       <div id="modalTag" class="modalInitial">
+                        <div class="modal">
+                            <span class="close-btn" onclick="closeTag()">&times;</span>
+                        <p>Categorize esta viagem!</p>
+                    </div>
+                       </div>   
+
                     </div>
                     <div id="map" class="map">
                         <p>Você está em Reykjavic</p>

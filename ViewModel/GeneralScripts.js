@@ -21,16 +21,31 @@ function updateLocalTime() {
 setInterval(updateLocalTime, 1000);
 updateLocalTime();
 
+function alertLocation() {
+    document.getElementById('modalLocation').style.display = 'flex';
+}
+function closeLocation() {
+    document.getElementById('modalLocation').style.display = 'none';
+}
 function alertShare() {
     document.getElementById('modalShare').style.display = 'flex';
 }
-function Navigate(url) {
-    window.location.href = url;
-}
-
-
-
-
 function closeShare() {
     document.getElementById('modalShare').style.display = 'none';
+}
+function alertSystem() {
+    document.getElementById('modalSystem').style.display = 'flex';
+}
+function closeSystem() {
+    document.getElementById('modalSystem').style.display = 'none';
+}
+function alertTag() {
+    document.getElementById('modalTag').style.display = 'flex';
+}
+function closeTag() {
+    document.getElementById('modalTag').style.display = 'none';
+}
+
+function Navigate(url) {
+    window.location.href = url;
 }
