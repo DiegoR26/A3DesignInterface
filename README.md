@@ -30,7 +30,11 @@ Os usuários devem poder:
 
 # Personas
 
+- Arquivos e assets encontram-se na pasta A3DESIGNINTERFACE/Personas_e_Cenários/Apresentação.pdf
+
 # Cenarios
+
+- Arquivos e assets encontram-se na pasta A3DESIGNINTERFACE/Personas_e_Cenários/Apresentação.pdf
 
 # Protótipos
 
@@ -40,6 +44,12 @@ Os usuários devem poder:
     A3DESIGNINTERFACE/prototipos/hiFi/protHiFi.pdf
 - protótipo WEB
     A3DESIGNINTERFACE/prototipos/AppWeb/index.html
+    
+- [model](https://github.com/diegor26/A3DESIGNINTERFACE)
+
+# Apresentação
+
+- [Apresentação em vídeo](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
     
 
 
