@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se ou faça Login</title>
+    <link rel="stylesheet" href="../CSS/GeneralStyles.css">
+    <link rel="stylesheet" href="../CSS/SignUpStyles.css">
+    <script src="/ViewModel/GeneralScripts.js"></script>
+</head>
+
+<body>
+
+    <Main>
+
+        <div id="screen">
+            <!-- Barra no topo do celular com as informações de sinal e bateria -->
+            <div id="topBar">
+                <div id="topBarLocalTime"></div>
+                <div id="topBarStatusItems"></div>
+            </div>
+
+            <!-- Conteúdo principal da tela -->
+            <div id="mainContent">
+                <div id="c" class="signUpContent">
+                    <div class="logoWrap">
+                        <h1 class="logo">Travel Journal</h1>
+                    </div>
+                    <input type="text" placeholder="Nome">
+                    <input type="date" placeholder="Data de Nascimento">
+                    <input type="text" placeholder="Email">
+                    <input type="password" placeholder="Senha">
+                    <input type="password" placeholder="Repita a senha">
+                    <div class="termsNConditions">
+                        <input id="checkBox" type="checkbox">
+                        <a href="">concordo com os termos e condições</a>
+
+                    </div>
+                    <div class="button">
+                        <button class="baseDivBt">
+                            <a href="./LoginScreen.html">Cadastrar-se</a>
+                        </button>
+                    </div>
+
+                </div>
+                <!-- Barra inferior com os 2 botões -->
+                <div id="bottonBar">
+                    <div id="bottonBarBt1" class="bottonBt" onclick="Navigate('LoginScreen.html')"></div>
+                    <div id="bottonBarBt2" class="bottonBt"></div>
+                    <div id="bottonBarBt3" class="bottonBt"></div>
+                </div>
+            </div>
+    </Main>
+</body>
+
+</html>
