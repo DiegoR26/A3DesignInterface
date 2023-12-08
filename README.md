@@ -9,20 +9,11 @@ Trabalho A3 da Disciplina de Usabilidade, desenvolvimento web, mobile e jogos 20
 O Travel Journal é um projeto mobile que busca ajudar os mais diversos viajantes a registrarem e lembrarem dos seus momentos pelo mundo.
 Nele será possível registrar fotos, frases, nomes e até distâncias percorridas para no final criar um album personalizado.
 
-# Requisitos Funcionais 
-
-- [ ] Cadastrar Usuário
-- [ ] Fazer Login
-- [ ] Criar Viagem
-- [ ] Salvar Imagens
-- [ ] Salvar Percurso por GPS
-- [ ] Gerar Álbum Personalizado
-
- # Requisitos Funcionais
+# Requisitos Funcionais
  
 Os usuários devem poder:
 - [ ] Criar contas no aplicativo, com a opção de utilizar e-mails, redes sociais ou outros métodos de autenticação.
-- [ ] Criarem viagens, inserindo detalhes como título, datas de início e término, e descrição.
+- [ ] Criar viagens, inserindo detalhes como título, datas de início e término, e descrição.
 - [ ] Fazer check-in em pontos turísticos específicos durante suas viagens, associando fotos e notas a esses check-ins.
 - [ ] Adicionar fotos às suas viagens, com a opção de incluir descrições, tags e classificações.
 - [ ] Criar álbuns temáticos com fotos de diferentes viagens, facilitando a organização e compartilhamento.
@@ -37,6 +28,10 @@ Os usuários devem poder:
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+# Personas
+
+# Cenarios
+
 # Protótipos
 
 - protótipo LO-FI
@@ -45,6 +40,7 @@ Os usuários devem poder:
     A3DESIGNINTERFACE/prototipos/hiFi/protHiFi.pdf
 - protótipo WEB
     A3DESIGNINTERFACE/prototipos/AppWeb/index.html
+    
 
 
 # Autores
