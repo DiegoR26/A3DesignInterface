@@ -1,0 +1,51 @@
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 20px 20px 50px 10px #b9e5c2 inset;
+}
+
+#TCHeader {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+#TCHeader H1 {
+    margin-top: 20px;
+}
+
+#TCBody {
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+#TCScrollTerms {
+    height: 100%;
+    width: 100%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#BtContainer {
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#BtContainer button {
+    width: 120px;
+    height: 60px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
