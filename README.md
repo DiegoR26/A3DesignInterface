@@ -37,6 +37,15 @@ Os usuários devem poder:
 - [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
 
+# Protótipos
+
+- protótipo LO-FI
+    A3DESIGNINTERFACE/prototipos/loFi/protLoFi.pdf
+- protótipo HI-FI
+    A3DESIGNINTERFACE/prototipos/hiFi/protHiFi.pdf
+- protótipo WEB
+    A3DESIGNINTERFACE/prototipos/AppWeb/index.html
+
 
 # Autores
 
