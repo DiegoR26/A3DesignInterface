@@ -50,14 +50,14 @@ Os usuários devem poder:
 
 # Apresentação
 
-- [Apresentação em vídeo](https://youtu.be/Dhd2l2m6WQM)
+- [Apresentação em vídeo](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
     
 
 
 # Autores
 
-[Diego Rocha](https://github.com/DiegoR26) <br/>
-[Samuel SantAnna](https://github.com/Kageceleb)
+[Diego Rocha - Ra 1302222311 ](https://github.com/DiegoR26) <br/>
+[Samuel Sant'Anna - Ra 1302221910](https://github.com/Kageceleb) 
 
 # Licença
 
