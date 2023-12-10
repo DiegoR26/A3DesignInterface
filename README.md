@@ -40,11 +40,12 @@ Os usuários devem poder:
 
 - protótipo LO-FI
     A3DESIGNINTERFACE/prototipos/loFi/protLoFi.pdf
+
 - protótipo HI-FI
     A3DESIGNINTERFACE/prototipos/hiFi/protHiFi.pdf
+
 - protótipo WEB
-    [Link do AppWeb](https://diegor26.github.io/A3DesignInterface/)
-    
+    A3DESIGNINTERFACE/prototipos/AppWeb/index.html
 - [model](https://github.com/diegor26/A3DESIGNINTERFACE)
 
 # Apresentação
